@@ -61,6 +61,17 @@
                                         </configurer>
                                 </gkconfigurers>
                         </configuration>
+                  
+                        <executions>
+                                <execution>
+                                        <goals>
+                                        <!-- to execute feature files -->
+                                                <goal>run</goal>
+                                                <!-- to check feature files are runable (DryRun) -->
+                                                <goal>dryrun</goal>
+                                        </goals>
+                                </execution>
+                        </executions>
 
                 </plugin>
         </plugins>
