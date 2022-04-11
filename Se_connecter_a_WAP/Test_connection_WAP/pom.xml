@@ -1,8 +1,9 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <groupId>Test_Wap_Cucumber</groupId>
-  <artifactId>Test_Wap_Cucumber</artifactId>
+  <groupId>Test_connection</groupId>
+  <artifactId>Test_connection</artifactId>
   <version>0.0.1-SNAPSHOT</version>
+
 
 
 <properties>
@@ -61,18 +62,8 @@
                                         </configurer>
                                 </gkconfigurers>
                         </configuration>
-
-                        <executions>
-                                <execution>
-                                        <goals>
-                                        <!-- to execute feature files -->
-                                                <goal>run</goal>
-                                                <!-- to check feature files are runable (DryRun) -->
-                                                <goal>dryrun</goal>
-                                        </goals>
-                                </execution>
-                        </executions>
-
+                  
+              
                 </plugin>
         </plugins>
 </build>
@@ -145,3 +136,4 @@
 
 
 </project>
+
