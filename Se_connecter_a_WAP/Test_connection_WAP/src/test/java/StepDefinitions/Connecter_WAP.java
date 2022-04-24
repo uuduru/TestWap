@@ -11,7 +11,6 @@ public class Connecter_WAP {
 		
 @Given("Que le navigateur est ouvert")
 public void que_le_navigateur_est_ouvert() {
-	System.setProperty("webdriver.firefox.driver", "C:\\Users\\Y9G22V706\\Downloads\\Selenium Webdrivers\\geckodriver.exe");
 	driver = new FirefoxDriver();
 }
 
