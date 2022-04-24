@@ -12,8 +12,10 @@
       <ta.cucumber.runner.version>1.1.0-RELEASE</ta.cucumber.runner.version>
       <!-- optional source encoding -->
       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  
 
-
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
 
 
 </properties>
