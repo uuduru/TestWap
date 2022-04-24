@@ -10,10 +10,8 @@ public class Connecter_WAP {
 	WebDriver driver = null;
 		
 @Given("Que le navigateur est ouvert")
-public void que_le_navigateur_est_ouvert() throws MalformedURLException {
-	FirefoxOptions firefoxOptions = new FirefoxOptions();	
-	WebDriver driver = new RemoteWebDriver(new URL("http://159.122.175.120:30723/"),firefoxOptions);
-	//driver = new FirefoxDriver();
+public void que_le_navigateur_est_ouvert() {
+	driver = new FirefoxDriver();
 }
 
 @And("Je cherche URL de WAP")
