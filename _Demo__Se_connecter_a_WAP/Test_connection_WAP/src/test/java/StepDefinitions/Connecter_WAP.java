@@ -16,7 +16,7 @@ public class Connecter_WAP {
 
 @Given("Que le navigateur est ouvert")  
 public void que_le_navigateur_est_ouvert() throws MalformedURLException {
-	 System.setProperty("webdriver.gecko.driver", "/TestWap/geckodriver.exe");
+	 System.setProperty("webdriver.gecko.driver", "TestWap/geckodriver.exe");
 	 driver = new FirefoxDriver();
 	//FirefoxOptions firefoxOptions = new FirefoxOptions();	
 	//WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444"),firefoxOptions);
