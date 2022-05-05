@@ -12,10 +12,9 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 
 public class Connecter_WAP {
 
-
+ System.setProperty("webdriver.gecko.driver", "TestWap/_Demo__Se_connecter_a_WAP/Test_connection_WAP/src/test/java/StepDefinitions/geckodriver");
 @Given("Que le navigateur est ouvert")  
 public void que_le_navigateur_est_ouvert() throws MalformedURLException {
-	 System.setProperty("webdriver.gecko.driver", "TestWap/_Demo__Se_connecter_a_WAP/Test_connection_WAP/src/test/java/StepDefinitions/geckodriver");
 	 WebDriver driver = null;
 	 driver = new FirefoxDriver();
 	//FirefoxOptions firefoxOptions = new FirefoxOptions();	
