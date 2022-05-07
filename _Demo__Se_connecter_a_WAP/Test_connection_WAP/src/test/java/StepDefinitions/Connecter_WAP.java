@@ -17,7 +17,7 @@ public class Connecter_WAP {
 public void que_le_navigateur_est_ouvert() throws MalformedURLException {
 	 //System.setProperty("webdriver.gecko.driver", "TestWap/_Demo__Se_connecter_a_WAP/Test_connection_WAP/src/test/java/StepDefinitions/geckodriver");
          FirefoxOptions firefoxOptions = new FirefoxOptions();	
-	 WebDriver driver = new RemoteWebDriver(new URL("http://192.168.1.35:4444"),firefoxOptions);
+	 driver = new RemoteWebDriver(new URL("https://selenium.wap-test-platform-iks-086d0feb796ce72f6b820703a879a158-0000.eu-de.containers.appdomain.cloud/ui/index.html#/"),firefoxOptions);
 	 //driver = new FirefoxDriver();
 	//FirefoxOptions firefoxOptions = new FirefoxOptions();	
 	//WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444"),firefoxOptions);
