@@ -39,8 +39,5 @@ public void je_clique_sur_le_bouton_sign_in() {
 
 	driver.findElement(By.cssSelector("#cd_login_button")).click(); 
 	driver.quit();
-    
 }
-
-
 }
