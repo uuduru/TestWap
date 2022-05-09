@@ -24,7 +24,7 @@ public void que_le_navigateur_est_ouvert() throws MalformedURLException {
 	//driver = new FirefoxDriver();
 	FirefoxOptions firefoxOptions = new FirefoxOptions();
 	firefoxOptions.setCapability("platform", Platform.ANY);
-	driver = new RemoteWebDriver(new URL("http://localhost:4444"),firefoxOptions);
+	driver = new RemoteWebDriver(new URL("http://192.168.1.35:4444"),firefoxOptions);
 }
 
 @And("Je cherche URL de WAP")
