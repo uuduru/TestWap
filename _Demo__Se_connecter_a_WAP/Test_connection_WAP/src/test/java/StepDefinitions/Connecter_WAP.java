@@ -35,7 +35,7 @@ public void je_cherche_url_de_wap() {
 
 @And("Je rentre le nom utilisateur et son mot de passe")
 public void je_rentre_le_nom_utilisateur_et_son_mot_de_passe() throws InterruptedException {
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30)); 
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60)); 
 	wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#email")));
     driver.findElement(By.cssSelector("#email")).sendKeys("fake.user@yopmail.com");
     driver.findElement(By.cssSelector("#password")).sendKeys("root1234");      
