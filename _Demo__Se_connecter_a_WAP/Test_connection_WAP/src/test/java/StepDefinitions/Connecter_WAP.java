@@ -22,7 +22,8 @@ public class Connecter_WAP {
 public void que_le_navigateur_est_ouvert() throws MalformedURLException {
 	//System.setProperty("webdriver.firefox.driver", "C:\\Users\\Y9G22V706\\Downloads\\Software_Ugo\\geckodriver.exe");
 	//driver = new FirefoxDriver();
-	FirefoxOptions firefoxOptions = new FirefoxOptions();	
+	FirefoxOptions firefoxOptions = new FirefoxOptions();
+	firefoxOptions.setCapability("platform", Platform.ANY);
 	driver = new RemoteWebDriver(new URL("http://192.168.31.105:4444"),firefoxOptions);
 }
 
