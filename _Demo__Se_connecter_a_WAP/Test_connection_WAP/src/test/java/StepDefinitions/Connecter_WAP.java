@@ -19,15 +19,11 @@ public void que_le_navigateur_est_ouvert() throws MalformedURLException {
          FirefoxOptions firefoxOptions = new FirefoxOptions();	
 	 driver = new RemoteWebDriver(new URL("http://192.168.31.105:4444"),firefoxOptions);
 	 //driver = new FirefoxDriver();
-	//FirefoxOptions firefoxOptions = new FirefoxOptions();	
-	//WebDriver driver = new RemoteWebDriver(new URL("http://localhost:4444"),firefoxOptions);
 }
 
 @And("Je cherche URL de WAP")
-public void je_cherche_url_de_wap() {
-	
+public void je_cherche_url_de_wap() {	
 	driver.get("https://staging.wap.ibminteractive.fr/collaborateurs");
-    
 }
 
 @And("Je rentre le nom utilisateur et son mot de passe")
