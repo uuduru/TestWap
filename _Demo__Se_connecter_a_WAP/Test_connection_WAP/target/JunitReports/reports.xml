@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="2" time="24.027">
+    <testcase classname="Se connecter � WAP" name="Se connecter WAP" time="13.105">
+        <system-out>
+            <![CDATA[Given Que le navigateur est ouvert..........................................passed
+And Je cherche URL de WAP...................................................passed
+And Je rentre le "fake_people_manager@yopmail.com" et son mot de passe......passed
+Then Je clique sur le bouton sign in........................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Se connecter � WAP" name="Se connecter WAP 2" time="10.565">
+        <system-out>
+            <![CDATA[Given Que le navigateur est ouvert..........................................passed
+And Je cherche URL de WAP...................................................passed
+And Je rentre le "fake.user@yopmail.com" et son mot de passe................passed
+Then Je clique sur le bouton sign in........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>
