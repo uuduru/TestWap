@@ -8,3 +8,4 @@ Feature: Se connecter à WAP
 		And Je cherche URL de WAP
 		And Je rentre le nom utilisateur et son mot de passe
 		And Je clique sur le bouton sign in
+		Then Je verifie que j'ai réussi à me connecter
